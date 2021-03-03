@@ -1,1 +1,158 @@
-Hello world
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Page setup -->
+    <meta charset="utf-8" />
+    <title>Your title here</title>
+    <meta
+      name="description"
+      content="A brief description of your site for search engines"
+    />
+    <meta name="author" content="Information about the author here" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <!-- Stylesheets -->
+    <!-- Reset default styles and add support for google fonts -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Custom styles -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Want to add Bootstrap? -->
+    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+  </head>
+
+  <body>
+    <header id="header">
+      <img src="logo.png" />
+      <h1>George Kemp's Portfolio</h1>
+
+      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
+      <ul class="main-menu">
+        <li><a href="#main">main</a></li>
+        <li><a href="#3D">3D</a></li>
+        <li><a href="#2D">2D</a></li>
+        <li><a href="#datascience">data science</a></li>
+        <li><a href="#games">games</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </header>
+
+    <div id="container">
+      <div class="inner">
+        <div id="content">
+          <div id="main" class="content-region hide">
+            <h1>main</h1>
+            <p>
+              main The standard Lorem Ipsum passage, used since the 1500s "Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum."
+              Section 1.10.32 of "de Finibus Bonorum et Malorum", written by
+              Cicero in 45 BC "Sed ut perspiciatis unde omnis iste natus error
+              sit voluptatem accusantium doloremque laudantium, totam rem
+              aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+              architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+              voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+              quia consequuntur magni dolores eos qui ratione voluptatem sequi
+              nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
+              sit amet, consectetur, adipisci velit, sed quia non numquam eius
+              modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+              voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem
+              ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+              consequatur? Quis autem vel eum iure reprehenderit qui in ea
+              voluptate velit esse quam nihil molestiae consequatur, vel illum
+              qui dolorem eum fugiat quo voluptas nulla pariatur?"
+            </p>
+          </div>
+
+          <div id="3D" class="content-region hide">
+            <p>
+              3D
+            </p>
+          </div>
+
+          <div id="2D" class="content-region hide">
+            <p>
+              2D
+            </p>
+          </div>
+
+          <div id="datascience" class="content-region hide">
+            <p>
+              <a
+                href="datascience/speaker-prediction-comparison.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Speaker Prediction Comparison</a
+              >
+            </p>
+            <p>
+              <a
+                href="datascience/connect-4-dqn-agent.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Interpreting a DQN Connect 4 Agent</a
+              >
+            </p>
+            <p>
+              <a
+                href="datascience/tree-shap-and-alcohol-consumption.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Tree SHAP for Exploratory Data Analysis</a
+              >
+            </p>
+            <p>
+              <a
+                href="datascience/Auto-Trading Agent with Deep Q Networks.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Auto-Trading Agent with Deep Q Networks</a
+              >
+            </p>
+          </div>
+
+          <div id="games" class="content-region hide">
+            <p>
+              games
+            </p>
+          </div>
+
+          <div id="contact" class="content-region hide">
+            <p>
+              contact
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Load additional JS scripts here -->
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
